@@ -11,3 +11,9 @@ zstyle :compinstall filename '/home/jacob/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
+# Adding aliases
+alias ls="ls --color=auto"
+alias grep="grep --color=auto"
+
+PROMPT='%B%F{yellow}%~%f%b %# '
