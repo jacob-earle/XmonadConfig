@@ -8,6 +8,8 @@ mkdir $HOME/.xmonad && cp xmonad/xmonad.hs $HOME/.xmonad/xmonad.hs
 cp .zshrc $HOME/.zshrc
 mkdir $HOME/.config
 mkdir $HOME/.config/alacritty && cp alacritty.yml $HOME/.config/alacritty/alacritty.yml
+mkdir $HOME/.config/picom && cp picom.conf $HOME/.config/picom.conf
+cp image.jpg $HOME/image.jpg
 
 #compile xmonad
 xmonad --recompile

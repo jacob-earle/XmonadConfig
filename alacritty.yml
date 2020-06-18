@@ -16,3 +16,6 @@ font:
       style: Bold Italic
 
     size: 11
+
+background_opacity: 0
+
