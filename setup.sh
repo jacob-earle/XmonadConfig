@@ -1,6 +1,6 @@
 #!/bin/sh
 #installing packages
-yes | sudo pacman -S xorg-server lightdm lightdm-gtk-greeter xmonad xmonad-contrib xmobar dmenu alacritty zsh noto-fonts ttf-hack feh picom
+yes | sudo pacman -S xorg-server lightdm lightdm-webkit2-greeter xmonad xmonad-contrib xmobar dmenu alacritty zsh noto-fonts ttf-hack feh picom
 sudo systemctl enable lightdm
 
 #install config files
