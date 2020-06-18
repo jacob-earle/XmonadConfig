@@ -13,4 +13,6 @@ main = do
     xmonad $ docks defaultConfig {
     terminal	= "alacritty"
     , modMask	= mod1Mask
+    , manageHook= manageDocks <+> manageHook defaultConfig
+    , layoutHook = avoidStruts $ layoutHook defaultConfig
     }
