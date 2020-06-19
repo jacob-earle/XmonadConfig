@@ -1,6 +1,6 @@
 #!/bin/sh
 #installing packages
-yes | sudo pacman -S xorg-server lightdm lightdm-webkit2-greeter xmonad xmonad-contrib xmobar dmenu alacritty zsh noto-fonts ttf-hack feh picom neofetch lolcat python python-pip
+yes | sudo pacman -S xorg-server lightdm lightdm-webkit2-greeter xmonad xmonad-contrib xmobar dmenu alacritty zsh noto-fonts ttf-hack feh picom neofetch lolcat python python-pip rofi
 sudo systemctl enable lightdm
 
 #install python virtualenv command
