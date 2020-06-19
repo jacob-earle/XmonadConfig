@@ -16,4 +16,11 @@ compinit
 alias ls="ls --color=auto"
 alias grep="grep --color=auto"
 
-PROMPT='%B%F{yellow}%~%f%b %# '
+fpath+=$HOME/.zsh/pure
+autoload -U promptinit; promptinit
+prompt pure
+
+#Adding local scripts to the path
+export PATH=$PATH:$HOME/.local/bin
+
+neofetch | lolcat
