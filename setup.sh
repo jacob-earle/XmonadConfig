@@ -16,7 +16,7 @@ mkdir $HOME/.config
 mkdir $HOME/.config/alacritty && cp alacritty.yml $HOME/.config/alacritty/alacritty.yml
 mkdir $HOME/.config/picom && cp picom.conf $HOME/.config/picom.conf
 cp image.jpg $HOME/image.jpg
-cp .xmobarrc $HOME/.xmobar.rc
+cp .xmobarrc $HOME/.xmobarrc
 sudo cp lightdm.conf /etc/lightdm/lightdm.conf
 
 #compile xmonad
