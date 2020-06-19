@@ -14,8 +14,8 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 cp .zshrc $HOME/.zshrc
 mkdir $HOME/.config
 mkdir $HOME/.config/alacritty && cp alacritty.yml $HOME/.config/alacritty/alacritty.yml
-mkdir $HOME/.config/picom && cp picom.conf $HOME/.config/picom.conf
-cp image.jpg $HOME/image.jpg
+mkdir $HOME/.config/picom && cp picom.conf $HOME/.config/picom/picom.conf
+mkdir $HOME/.config/rofi && cp rofi/config.rasi $HOME/.config/rofi/config.rasi
 cp .xmobarrc $HOME/.xmobarrc
 sudo cp lightdm.conf /etc/lightdm/lightdm.conf
 
