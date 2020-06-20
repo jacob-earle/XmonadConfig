@@ -1,4 +1,4 @@
-Config { font = "-*-Fixed-Bold-R-Normal-*-13-*-*-*-*-*-*-*"
+Config { font = "xft:Hack:size=10:style=Regular:antialiasing=true"
         , borderColor = "black"
         , border = TopB
         , bgColor = "black"
