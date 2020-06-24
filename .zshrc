@@ -21,6 +21,8 @@ autoload -U promptinit; promptinit
 prompt pure
 
 #Adding local scripts to the path
-export PATH=$PATH:$HOME/.local/bin
+export PATH=$PATH:$HOME/.local/bin:$HOME/.cargo/bin
 
-neofetch | lolcat
+neofetch --ascii_distro Arch_small | lolcat
+
+
