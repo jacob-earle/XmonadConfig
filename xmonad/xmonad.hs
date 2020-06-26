@@ -4,6 +4,7 @@ import XMonad.Hooks.ManageDocks(ToggleStruts(..),avoidStruts,docks,manageDocks)
 import XMonad.Util.Run(spawnPipe)
 import XMonad.Util.EZConfig
 import System.IO
+import Graphics.X11.ExtraTypes.XF86
 
 main = do
     spawn "killall feh picom"
@@ -21,4 +22,6 @@ main = do
                         }
         } `additionalKeys`
         [ ((mod1Mask, xK_p), spawn "rofi -show drun")
+        , ((0, xF86XK_AudioRaiseVolume), spawn "pactl set-sink-volume 0 +5%")
+        , ((0, xF86XK_AudioLowerVolume), spawn "pactl set-sink-volume 0 -5%")
         ] 
